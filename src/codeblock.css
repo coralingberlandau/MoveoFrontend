@@ -1,0 +1,89 @@
+
+.editor-container {
+  padding: 40px;
+  border-radius: 8px;
+  width: 120%;
+  max-width: 1000px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 15px;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 40px;
+  color: black;
+}
+
+button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.button-back {
+  background-color: #007BFF;
+}
+
+.button-back:hover {
+  background-color: #0056b3;
+}
+
+.solution_text {
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.solution_text.correct {
+  color: #4CAF50;
+  background-color: #e8f5e9;
+  border: 1px solid #4CAF50;
+}
+
+.solution_text.incorrect {
+  color: #f44336;
+  background-color: #ffebee;
+  border: 1px solid #f44336;
+}
+
+.students-count {
+  margin-top: 20px;
+  font-size: 2.1em;
+  color: #777;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  position: sticky; 
+  bottom: 0; 
+  left: 50%;
+  margin-bottom: 0; 
+}
